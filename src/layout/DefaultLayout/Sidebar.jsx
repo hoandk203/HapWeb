@@ -25,10 +25,10 @@ const Sidebar = () => {
                 <NavLink className="nav-link" to="/providers"><img src={userListBlack}/>Providers</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/provider-network"><img src={chartBar}/>Provider Network Health</NavLink>
+                <NavLink className="nav-link" to="/provider-network-health"><img src={chartBar}/>Provider Network Health</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/risk-target"><img src={clipboardText}/>Risk Targeting Rules</NavLink>
+                <NavLink className="nav-link" to="/risk-targeting-rules"><img src={clipboardText}/>Risk Targeting Rules</NavLink>
             </li>
             <li className="nav-item">
                 <NavLink className="nav-link" to="/provider-management"><img src={gridFour}/>Provider Management<img

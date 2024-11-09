@@ -14,12 +14,12 @@ export const publicRoutes = (
     <Route element={<DefaultLayout />}>
       <Route path="/" element={<HomePage />} />
       <Route path="/providers" element={<Providers />} />
-      <Route path="/chat" element={<Chat />} />
-      <Route path="/community" element={<Community />} />
-      <Route path="/project-tracking" element={<ProjectTracking />} />
+      <Route path="/provider-network-health" element={<ProviderNetwork />} />
+      <Route path="/risk-targeting-rules" element={<RiskTarget />} />
       <Route path="/provider-management" element={<ProviderManagement />} />
-      <Route path="/risk-target" element={<RiskTarget />} />
-      <Route path="/provider-network" element={<ProviderNetwork />} />
+      <Route path="/project-tracking" element={<ProjectTracking />} />
+      <Route path="/community" element={<Community />} />
+      <Route path="/chat" element={<Chat />} />
     </Route>
   </>
 );

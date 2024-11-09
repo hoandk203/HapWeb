@@ -6,7 +6,11 @@ import { useLocation } from 'react-router-dom';
 const Header = () => {
     const location = useLocation();
     let pathname= location.pathname.split("/")[1];
-    pathname = pathname.charAt(0).toUpperCase() + pathname.slice(1);
+    pathname= pathname.split("-");
+    pathname = pathname.map((item)=>{
+      return item.charAt(0).toUpperCase() + item.slice(1);
+    })
+    pathname = pathname.join(" ");
     
   return (
     <div className="header d-flex justify-content-between align-items-center border-bottom">
