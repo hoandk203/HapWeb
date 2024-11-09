@@ -1,4 +1,4 @@
-
+import DotsThreeVertical from "../../../assets/image/DotsThreeVertical.svg";
 import India from "../../../assets/image/india.svg";
 import UserList1 from "../../../assets/image/userList1.svg";
 
@@ -43,8 +43,7 @@ const ProviderListTable = () => {
                                 </td>
                                 <td>July 17, 2024</td>
                                 <td>
-                                    <button className="btn btn-sm btn-link"><i
-                                            className="bi bi-three-dots-vertical text-muted"></i></button>
+                                    <button className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                 </td>
                             </tr>
                             <tr>
@@ -68,8 +67,7 @@ const ProviderListTable = () => {
                                 </td>
                                 <td>July 17, 2024</td>
                                 <td>
-                                    <button className="btn btn-sm btn-link t"><i
-                                            className="bi bi-three-dots-vertical text-muted"></i></button>
+                                    <button className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                 </td>
                             </tr>
                             <tr>
@@ -93,8 +91,7 @@ const ProviderListTable = () => {
                                 </td>
                                 <td>July 17, 2024</td>
                                 <td>
-                                    <button className="btn btn-sm btn-link"><i
-                                            className="bi bi-three-dots-vertical text-muted"></i></button>
+                                    <button className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                 </td>
                             </tr>
                             <tr>
@@ -118,8 +115,7 @@ const ProviderListTable = () => {
                                 </td>
                                 <td>July 17, 2024</td>
                                 <td>
-                                    <button className="btn btn-sm btn-link"><i
-                                            className="bi bi-three-dots-vertical text-muted"></i></button>
+                                    <button className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                 </td>
                             </tr>
                             <tr>
@@ -143,8 +139,7 @@ const ProviderListTable = () => {
                                 </td>
                                 <td>July 17, 2024</td>
                                 <td>
-                                    <button className="btn btn-sm btn-link"><i
-                                            className="bi bi-three-dots-vertical text-muted"></i></button>
+                                    <button className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                 </td>
                             </tr>
                         </tbody>
