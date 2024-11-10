@@ -1,5 +1,4 @@
 import userAvatar from "../../assets/image/userAvatar.svg";
-import { useParams } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 
 

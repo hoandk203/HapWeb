@@ -42,6 +42,14 @@ body {
     background-color: #ecfdf3;
 }
 
+.text-status-info-dark {
+    color: #175cd3;
+}
+
+.bg-status-info-light {
+    background-color: #eff8ff;
+}
+
 .bg-surface-secondary {
     background-color: #f8fafc;
 }
@@ -91,6 +99,7 @@ body {
     padding: 8px 12px;
 }
 
+.search-btn,
 .search-input {
     padding-left: 36px;
 }
@@ -140,4 +149,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.star:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }

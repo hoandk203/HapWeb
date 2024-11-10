@@ -10,7 +10,7 @@ const ProviderList = () => {
                     <div className="py-2">
                         <h3 className="fs-5 fw-semibold mb-0">Providers</h3>
                     </div>
-                    <div className="me-auto fs-14">Found 80 Results</div>
+                    <div className="me-auto fs-14 align-content-center">Found 80 Results</div>
                     <div className="col-2">
                         <select className="form-select">
                             <option>Sort by</option>
