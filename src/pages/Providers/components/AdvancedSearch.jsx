@@ -4,7 +4,7 @@ import TreeStructure from "../../../assets/image/TreeStructure.svg";
 
 const AdvancedSearch = ({setShowAdvancedSearch}) => {
     return (
-        <div style={{width: "260px", left: "0px", height: "calc(100vh - 64px)"}} className="position-absolute z-1 top-0 fs-14 bg-white border d-flex flex-column">
+        <div style={{width: "260px", left: "0px", height: "calc(100vh - 64px)"}} className="position-absolute z-1001 top-0 fs-14 bg-white border d-flex flex-column">
             <div className="p-3 border">
                 <div className="d-flex justify-content-between align-items-center mb-2">
                     <h5 className="mb-0 fs-6">Advanced Search</h5>
@@ -20,12 +20,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
             <div className="accordion overflow-y-scroll" id="searchAccordion">
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#budgetCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#budgetCollapse">
                             Budget
                         </button>
                     </div>
-                    <div id="budgetCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="budgetCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <div className="row g-2">
                                 <div className="col">
                                     <input type="text" className="form-control" placeholder="From"/>
@@ -40,18 +40,18 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#ratingCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#ratingCollapse">
                             Rating
                         </button>
                     </div>
-                    <div id="ratingCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
-                            <div className="rating d-flex gap-1">
-                                <span className="star fs-3 text-warning" role="button">★</span>
-                                <span className="star fs-3 text-warning" role="button">★</span>
-                                <span className="star fs-3 text-warning" role="button">★</span>
-                                <span className="star fs-3 text-muted" role="button">★</span>
-                                <span className="star fs-3 text-muted" role="button">★</span>
+                    <div id="ratingCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
+                            <div className="rating d-flex justify-content-between">
+                                <span className="star fs-1 text-warning lh-1" role="button">★</span>
+                                <span className="star fs-1 text-warning lh-1" role="button">★</span>
+                                <span className="star fs-1 text-warning lh-1" role="button">★</span>
+                                <span className="star fs-1 text-muted lh-1" role="button">★</span>
+                                <span className="star fs-1 text-muted lh-1" role="button">★</span>
                             </div>
                         </div>
                     </div>
@@ -59,12 +59,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#availabilityCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#availabilityCollapse">
                             Availability
                         </button>
                     </div>
-                    <div id="availabilityCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="availabilityCollapse" className="accordion-collapse collapse show border-bottom border-bottom">
+                        <div className="accordion-body p-3">
                             <input type="date" className="form-control" id="availability"/>
                         </div>
                     </div>
@@ -72,12 +72,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#providerCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#providerCollapse">
                             Provider type
                         </button>
                     </div>
-                    <div id="providerCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="providerCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <div className="form-check">
                                 <input className="form-check-input" type="checkbox" name="provider" id="auditor"/>
                                 <label className="form-check-label" htmlFor="auditor">Auditor</label>
@@ -92,12 +92,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#serviceCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#serviceCollapse">
                             Service types
                         </button>
                     </div>
-                    <div id="serviceCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="serviceCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <select className="form-select mb-2 fs-14">
                                 <option>Select service type(s)</option>
                             </select>
@@ -113,12 +113,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#serviceCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#serviceCollapse">
                             Sub-Service types
                         </button>
                     </div>
-                    <div id="serviceCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="serviceCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <select className="form-select mb-2 fs-14">
                                 <option>Select sub-service(s)</option>
                             </select>
@@ -132,12 +132,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#genderCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#genderCollapse">
                             Gender
                         </button>
                     </div>
-                    <div id="genderCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="genderCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <div className="form-check">
                                 <input className="form-check-input" type="checkbox" id="male"/>
                                 <label className="form-check-label" htmlFor="male">Male</label>
@@ -152,12 +152,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#shiftCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#shiftCollapse">
                             Work shift
                         </button>
                     </div>
-                    <div id="shiftCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="shiftCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <div className="form-check">
                                 <input className="form-check-input" type="checkbox" id="day"/>
                                 <label className="form-check-label" htmlFor="day">Day</label>
@@ -172,12 +172,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#modeCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#modeCollapse">
                             Service Mode
                         </button>
                     </div>
-                    <div id="modeCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="modeCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <div className="form-check">
                                 <input className="form-check-input" type="checkbox" name="mode" id="onsite"/>
                                 <label className="form-check-label" htmlFor="onsite">On-Site</label>
@@ -192,12 +192,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#trainingCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#trainingCollapse">
                             Training & Certification
                         </button>
                     </div>
-                    <div id="trainingCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="trainingCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <select className="form-select mb-2 fs-14">
                                 <option>Select training(s)</option>
                             </select>
@@ -207,12 +207,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#proficiencyCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#proficiencyCollapse">
                             Language proficiency
                         </button>
                     </div>
-                    <div id="proficiencyCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="proficiencyCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <select className="form-select mb-2 fs-14">
                                 <option>Select proficiency</option>
                             </select>
@@ -222,12 +222,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#skillsCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#skillsCollapse">
                             Skills
                         </button>
                     </div>
-                    <div id="skillsCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="skillsCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <select className="form-select mb-2 fs-14">
                                 <option>Select skills</option>
                             </select>
@@ -243,12 +243,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#experienceCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#experienceCollapse">
                             Professional experience
                         </button>
                     </div>
-                    <div id="experienceCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="experienceCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <div className="form-check">
                                 <input className="form-check-input" type="radio" name="provider" id="entry"/>
                                 <label className="form-check-label" htmlFor="entry">Entry level</label>
@@ -267,12 +267,12 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button border-0 fs-14 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#industryCollapse">
+                        <button className="accordion-button bg-white fs-14 fw-semibold shadow-none p-3 pb-0" type="button" data-bs-toggle="collapse" data-bs-target="#industryCollapse">
                             Industries served
                         </button>
                     </div>
-                    <div id="industryCollapse" className="accordion-collapse collapse show">
-                        <div className="accordion-body">
+                    <div id="industryCollapse" className="accordion-collapse collapse show border-bottom">
+                        <div className="accordion-body p-3">
                             <select className="form-select mb-2 fs-14">
                                 <option>Select industry(s)</option>
                             </select>

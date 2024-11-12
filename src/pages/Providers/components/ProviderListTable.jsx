@@ -26,7 +26,8 @@ const ProviderListTable = () => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="text-center"><input className="form-check-input px-2 py-2" type="checkbox"/>
+                                <td className="text-center">
+                                    <input className="form-check-input w-16px h-16px m-0" type="checkbox"/>
                                 </td>
                                 <td>
                                     <div className="d-flex align-items-center gap-2">
@@ -54,7 +55,7 @@ const ProviderListTable = () => {
                                 </td>
                             </tr>
                             <tr>
-                                <td className="text-center"><input className="form-check-input px-2 py-2" type="checkbox"/>
+                                <td className="text-center"><input className="form-check-input w-16px h-16px m-0" type="checkbox"/>
                                 </td>
                                 <td>
                                     <div className="d-flex align-items-center gap-2">
@@ -82,7 +83,7 @@ const ProviderListTable = () => {
                                 </td>
                             </tr>
                             <tr>
-                                <td className="text-center"><input className="form-check-input px-2 py-2" type="checkbox"/>
+                                <td className="text-center"><input className="form-check-input w-16px h-16px m-0" type="checkbox"/>
                                 </td>
                                 <td>
                                     <div className="d-flex align-items-center gap-2">
@@ -110,7 +111,7 @@ const ProviderListTable = () => {
                                 </td>
                             </tr>
                             <tr>
-                                <td className="text-center"><input className="form-check-input px-2 py-2" type="checkbox"/>
+                                <td className="text-center"><input className="form-check-input w-16px h-16px m-0" type="checkbox"/>
                                 </td>
                                 <td>
                                     <div className="d-flex align-items-center gap-2">
@@ -138,7 +139,7 @@ const ProviderListTable = () => {
                                 </td>
                             </tr>
                             <tr>
-                                <td className="text-center"><input className="form-check-input px-2 py-2" type="checkbox"/>
+                                <td className="text-center"><input className="form-check-input w-16px h-16px m-0" type="checkbox"/>
                                 </td>
                                 <td>
                                     <div className="d-flex align-items-center gap-2">

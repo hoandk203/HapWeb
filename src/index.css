@@ -6,6 +6,19 @@ body {
     width: 20%;
 }
 
+.w-16px {
+    width: 16px;
+}
+
+.h-16px {
+    height: 16px;
+}
+
+.px-12px {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .max-height-520px {
     max-height: 520px;
 }
@@ -16,6 +29,10 @@ body {
 
 .fs-12 {
     font-size: 12px;
+}
+
+.z-1001 {
+    z-index: 1001;
 }
 
 .text-primary {
