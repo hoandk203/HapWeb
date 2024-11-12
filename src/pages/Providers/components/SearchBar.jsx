@@ -12,15 +12,15 @@ const SearchBar = ({showAdvancedSearch, setShowAdvancedSearch}) => {
                         </button>
                         <input type="search" className="form-control search-input rounded-3" placeholder="Search"/>
                     </div>
-                    <div className="position-relative col-2">
+                    <div style={{ minWidth: "190px" }} className="position-relative col-2">
                         <button type="button"
                             onClick={() => setShowAdvancedSearch(!showAdvancedSearch)}
                             className="btn rounded-3 border fw-semibold d-flex align-items-center gap-2 float-end"><img
                             src={MagnifyingGlass}/>Advanced Search</button>
                     </div>
                 </div>
-                <div className="row justify-content-between">
-                    <div className="col-5 d-flex p-0">
+                <div className="row justify-content-between gy-3">
+                    <div style={{ minWidth: "382px" }} className="col-5 d-flex p-0">
                         <div className="col px-12px border-end">
                             <button type="button"
                                     data-bs-toggle="dropdown"
