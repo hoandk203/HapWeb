@@ -1,0 +1,132 @@
+// Colors utilities
+.text {
+  // Blue
+  &-blue-50 { color: #eff8ff !important; }
+  &-blue-500 { color: #1570ef !important; }
+  &-blue-700 { color: #175cd3 !important; }
+
+  // Brand
+  &-brand-50 { color: #f0f9ff !important; }
+  &-brand-600 { color: #0284c7 !important; }
+  &-brand-700 { color: #0369a1 !important; }
+
+  // Green
+  &-green-50 { color: #ecfdf3 !important; }
+  &-green-500 { color: #12b76a !important; }
+  &-green-700 { color: #027a48 !important; }
+
+  // Neutral
+  &-neutral-0 { color: #ffffff !important; }
+  &-neutral-50 { color: #f8fafc !important; }
+  &-neutral-100 { color: #f1f5f9 !important; }
+  &-neutral-200 { color: #e2e8f0 !important; }
+  &-neutral-300 { color: #cbd5e1 !important; }
+  &-neutral-400 { color: #94a3b8 !important; }
+  &-neutral-500 { color: #64748b !important; }
+  &-neutral-600 { color: #475569 !important; }
+  &-neutral-700 { color: #334155 !important; }
+  &-neutral-800 { color: #1e293b !important; }
+  &-neutral-900 { color: #0f172a !important; }
+  &-neutral-1000 { color: #000000 !important; }
+
+  // Orange
+  &-orange-50 { color: #fff6ed !important; }
+  &-orange-500 { color: #ffa347 !important; }
+  &-orange-700 { color: #ee8013 !important; }
+
+  // Red
+  &-red-50 { color: #fef3f2 !important; }
+  &-red-500 { color: #f87171 !important; }
+  &-red-700 { color: #f04438 !important; }
+}
+
+.bg {
+  // Blue
+  &-blue-50 { background-color: #eff8ff !important; }
+  &-blue-500 { background-color: #1570ef !important; }
+  &-blue-700 { background-color: #175cd3 !important; }
+
+  // Brand
+  &-brand-50 { background-color: #f0f9ff !important; }
+  &-brand-600 { background-color: #0284c7 !important; }
+  &-brand-700 { background-color: #0369a1 !important; }
+
+  // Green
+  &-green-50 { background-color: #ecfdf3 !important; }
+  &-green-500 { background-color: #12b76a !important; }
+  &-green-700 { background-color: #027a48 !important; }
+
+  // Neutral
+  &-neutral-0 { background-color: #ffffff !important; }
+  &-neutral-50 { background-color: #f8fafc !important; }
+  &-neutral-100 { background-color: #f1f5f9 !important; }
+  &-neutral-200 { background-color: #e2e8f0 !important; }
+  &-neutral-300 { background-color: #cbd5e1 !important; }
+  &-neutral-400 { background-color: #94a3b8 !important; }
+  &-neutral-500 { background-color: #64748b !important; }
+  &-neutral-600 { background-color: #475569 !important; }
+  &-neutral-700 { background-color: #334155 !important; }
+  &-neutral-800 { background-color: #1e293b !important; }
+  &-neutral-900 { background-color: #0f172a !important; }
+  &-neutral-1000 { background-color: #000000 !important; }
+
+  // Orange
+  &-orange-50 { background-color: #fff6ed !important; }
+  &-orange-500 { background-color: #ffa347 !important; }
+  &-orange-700 { background-color: #ee8013 !important; }
+
+  // Red
+  &-red-50 { background-color: #fef3f2 !important; }
+  &-red-500 { background-color: #f87171 !important; }
+  &-red-700 { background-color: #f04438 !important; }
+}
+
+// Spacing utilities
+.spacing {
+  // Extra small
+  &-xss { padding: 4px !important; }
+  &-xs { padding: 8px !important; }
+  
+  // Small
+  &-sm { padding: 12px !important; }
+  
+  // Medium
+  &-md { padding: 16px !important; }
+  
+  // Large
+  &-lg { padding: 24px !important; }
+  
+  // Extra large
+  &-xl { padding: 32px !important; }
+  &-xll { padding: 40px !important; }
+
+  // Padding X (left & right)
+  &-x {
+    &-xss { padding-left: 4px !important; padding-right: 4px !important; }
+    &-xs { padding-left: 8px !important; padding-right: 8px !important; }
+    &-sm { padding-left: 12px !important; padding-right: 12px !important; }
+    &-md { padding-left: 16px !important; padding-right: 16px !important; }
+    &-lg { padding-left: 24px !important; padding-right: 24px !important; }
+    &-xl { padding-left: 32px !important; padding-right: 32px !important; }
+    &-xll { padding-left: 40px !important; padding-right: 40px !important; }
+  }
+
+  // Padding Y (top & bottom) 
+  &-y {
+    &-xss { padding-top: 4px !important; padding-bottom: 4px !important; }
+    &-xs { padding-top: 8px !important; padding-bottom: 8px !important; }
+    &-sm { padding-top: 12px !important; padding-bottom: 12px !important; }
+    &-md { padding-top: 16px !important; padding-bottom: 16px !important; }
+    &-lg { padding-top: 24px !important; padding-bottom: 24px !important; }
+    &-xl { padding-top: 32px !important; padding-bottom: 32px !important; }
+    &-xll { padding-top: 40px !important; padding-bottom: 40px !important; }
+  }
+}
+
+// Radius utilities
+.radius {
+  &-sm { border-radius: 4px !important; }
+  &-md { border-radius: 8px !important; }
+  &-lg { border-radius: 12px !important; }
+  &-xl { border-radius: 16px !important; }
+}

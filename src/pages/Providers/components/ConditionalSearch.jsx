@@ -10,13 +10,13 @@ const ConditionalSearch = () => {
                 <div className="modal-header d-flex justify-content-between align-items-center">
                     <h6 className="mb-0 fw-semibold">Conditional Search</h6>
                     <div className="d-flex align-items-center">
-                        <button className="btn text-primary fs-14">Clear all</button>
+                        <button className="btn text-brand-600 fs-14">Clear all</button>
                         <div className="d-flex align-items-center">
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                     </div>
                 </div>
-                <div className="modal-body d-flex flex-column gap-3">
+                <div className="modal-body d-flex flex-column gap-3 spacing-md">
                     <div className="d-flex justify-content-between">
                         <div className="col-3">
                             <select className="form-select">
@@ -87,13 +87,13 @@ const ConditionalSearch = () => {
                     </div>
                 </div>
                 <div className="modal-footer d-flex justify-content-between align-items-center gap-1">
-                    <button className="btn text-primary d-flex align-items-center gap-2 fs-14">
+                    <button className="btn text-brand-600 d-flex align-items-center gap-2 fs-14">
                         <img src={PlusPrimary} />
                         Add condition
                     </button>
                     <div className="d-flex gap-2">
                         <button className="btn btn-outline-secondary fs-14">Reset</button>
-                        <button className="btn bg-surface-primary text-white fs-14">Apply</button>
+                        <button className="btn bg-brand-600 text-neutral-0 fs-14">Apply</button>
                     </div>
                 </div>
                 </div>

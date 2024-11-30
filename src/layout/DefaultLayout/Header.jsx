@@ -1,24 +1,32 @@
-import userAvatar from "../../assets/image/userAvatar.svg";
 import { useLocation } from 'react-router-dom';
+import userAvatar from "../../assets/image/userAvatar.svg";
+import logo from "../../assets/image/logo.png";
 
-
-const Header = () => {
+const Header = ({ showSidebar, setShowSidebar }) => {
     const location = useLocation();
-    let pathname= location.pathname.split("/")[1];
-    pathname= pathname.split("-");
-    pathname = pathname.map((item)=>{
-      return item.charAt(0).toUpperCase() + item.slice(1);
+    let pathname = location.pathname.split("/")[1];
+    pathname = pathname.split("-");
+    pathname = pathname.map((item) => {
+        return item.charAt(0).toUpperCase() + item.slice(1);
     })
     pathname = pathname.join(" ");
     
-  return (
-    <div className="header d-flex justify-content-between align-items-center border-bottom">
-        <h4 className="mb-0 fs-4 fw-semibold">{pathname?pathname:"Home"}</h4>
-        <div className="d-flex gap-2 ">
-            <div className=""><img src={userAvatar} /></div>
+    return (
+        <div className="header spacing-x-md spacing-y-sm d-flex justify-content-between align-items-center border-bottom">
+            <div className="d-flex align-items-center gap-3">
+                <button 
+                    className="d-lg-none btn border-0 p-0" 
+                    onClick={() => setShowSidebar(!showSidebar)}
+                >
+                    <img src={logo} alt="logo"/>
+                </button>
+                <h4 className="mb-0 fs-4 fw-semibold">{pathname || "Home"}</h4>
+            </div>
+            <div className="d-flex gap-2">
+                <div><img src={userAvatar} /></div>
+            </div>
         </div>
-    </div>
-  )
+    )
 };
 
 export default Header;

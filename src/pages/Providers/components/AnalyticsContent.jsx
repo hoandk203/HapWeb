@@ -3,20 +3,20 @@ import CaretDownPrimary from "../../../assets/image/CaretDownPrimary.svg";
 const AnalyticsContent= ()=>{
     return(
         <>
-            <div className="analytics-card max-height-520px d-flex flex-column gap-2 justify-content-between h-100 border rounded-4">
-                <div className="py-2">
+            <div className="analytics-card max-height-520px d-flex flex-column gap-2 justify-content-between h-100 border radius-xl">
+                <div className="spacing-y-xs">
                     <h3 className="fs-5 fw-semibold mb-0">Analytics</h3>
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <div className="d-flex gap-2 flex-column bg-surface-secondary p-2 rounded-4">
-                            <span className="text-muted fs-14">Auditors</span>
+                        <div className="d-flex gap-2 flex-column bg-neutral-50 spacing-xs radius-xl">
+                            <span className="text-neutral-500 fs-14">Auditors</span>
                             <h2 className="mb-0 me-2 fs-4 fw-semibold">660</h2>
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="d-flex gap-2 flex-column bg-surface-secondary p-2 rounded-4">
-                            <span className="text-muted fs-14">Countries</span>
+                        <div className="d-flex gap-2 flex-column bg-neutral-50 spacing-xs radius-xl">
+                            <span className="text-neutral-500 fs-14">Countries</span>
                             <h2 className="mb-0 me-2 fs-4 fw-semibold">70</h2>
                         </div>
                     </div>
@@ -87,8 +87,10 @@ const AnalyticsContent= ()=>{
                     </div>
                 </div>
                 <div className="d-flex justify-content-center">
-                    <button className="view-all-btn text-primary btn d-flex align-items-center gap-1 fs-14"><span>View
-                            All</span><img src={CaretDownPrimary}/></button>
+                    <button className="view-all-btn text-brand-600 btn d-flex align-items-center gap-1 fs-14">
+                        <span>View All</span>
+                        <img src={CaretDownPrimary}/>
+                    </button>
                 </div>
             </div>
         </>

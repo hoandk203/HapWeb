@@ -10,16 +10,16 @@ import MessageModal from "./components/MessageModal";
 const Providers = () => {
   const [showAdvancedSearch, setShowAdvancedSearch] = useState(false);
   return (
-    <div className="main-content position-relative d-flex flex-column gap-4 p-3 bg-surface-secondary">
+    <div className="main-content position-relative d-flex flex-column gap-4 spacing-md bg-neutral-100">
       <MessageModal/>
       <ConditionalSearch/>
       {showAdvancedSearch && <AdvancedSearch setShowAdvancedSearch={setShowAdvancedSearch}/>}
       <SearchBar showAdvancedSearch={showAdvancedSearch} setShowAdvancedSearch={setShowAdvancedSearch}/>
       <div className="row ms-0 me-0 gap-3">
-        <div className="col bg-white px-0">
+        <div className="col-12 col-xl bg-neutral-0 px-0 radius-xl">
             <AnalyticsContent/>
         </div>
-        <div className="col bg-white px-0">
+        <div className="col-12 col-xl bg-neutral-0 px-0 radius-xl">
             <Location/>
         </div>
       </div>

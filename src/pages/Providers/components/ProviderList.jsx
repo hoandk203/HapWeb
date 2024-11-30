@@ -5,9 +5,9 @@ import ProviderListTable from "./ProviderListTable";
 
 const ProviderList = () => {
     return (
-        <div className="analytics-card d-flex flex-column gap-3 border rounded-4">
+        <div className="analytics-card d-flex flex-column gap-3 border radius-xl">
                 <div className="d-flex justify-content-between align-items-center gap-3">
-                    <div className="py-2">
+                    <div className="spacing-y-xs">
                         <h3 className="fs-5 fw-semibold mb-0">Providers</h3>
                     </div>
                     <div className="me-auto fs-14 align-content-center">Found 80 Results</div>
@@ -26,7 +26,7 @@ const ProviderList = () => {
                         <select className="form-select me-2 rounded-3" style={{width: "70px"}}>
                             <option>10</option>
                         </select>
-                        <span className="text-muted fs-14">1 - 10 of 80 Results</span>
+                        <span className="text-neutral-500 fs-14">1 - 10 of 80 Results</span>
                     </div>
                     <div>
                         <ul className="pagination mb-0 d-flex gap-2">

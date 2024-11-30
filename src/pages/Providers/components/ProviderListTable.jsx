@@ -9,7 +9,7 @@ const ProviderListTable = () => {
         <>
             <div className="table-responsive">
                 
-                <div className="overflow-hidden rounded-4 border">
+                <div className="overflow-hidden radius-xl border">
                     <table className="table providers-table m-0">
                         <thead>
                             <tr>
@@ -48,9 +48,9 @@ const ProviderListTable = () => {
                                 <td>July 17, 2024</td>
                                 <td>
                                     <button data-bs-toggle="dropdown" className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
-                                    <div className="dropdown-menu" onClick={e => e.stopPropagation()}>
-                                        <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#messageModal"><img src={ChatCircle} /> Message</button>
-                                        <button className="dropdown-item"><img src={WarningCircle} /> Flag</button>
+                                    <div className="three-dots-dropdown dropdown-menu" onClick={e => e.stopPropagation()}>
+                                        <button type="button" className="dropdown-item text-dark" data-bs-toggle="modal" data-bs-target="#messageModal"><img src={ChatCircle} /> Message</button>
+                                        <button className="dropdown-item text-dark"><img src={WarningCircle} /> Flag</button>
                                     </div>
                                 </td>
                             </tr>

@@ -13,9 +13,9 @@ import chatsCircle from "../../assets/image/ChatsCircle.svg";
 
 const Sidebar = () => {
   return (
-    <div className="sidebar p-3">
+    <div className="sidebar spacing-md ">
         <div className="mb-4">
-            <img src={logo}/>
+            <img src={logo} alt="logo"/>
         </div>
         <ul className="nav flex-column gap-2">
             <li className="nav-item">

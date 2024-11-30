@@ -20,12 +20,12 @@ const MessageModal = () => {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                 </div>
-                <div className="modal-body">
+                <div className="modal-body spacing-md">
                     ...
                 </div>
                 <div className="modal-footer d-flex justify-content-between align-items-center gap-1">
                     <input type="text" className="form-control w-auto flex-grow-1" placeholder="Enter your message" />
-                    <button className="btn bg-surface-primary text-white d-flex align-items-center gap-2"><img src={PaperPlaneTilt} /><span>Send</span></button>
+                    <button className="btn bg-brand-600 text-neutral-0 d-flex align-items-center gap-2"><img src={PaperPlaneTilt} /><span>Send</span></button>
                 </div>
                 </div>
             </div>

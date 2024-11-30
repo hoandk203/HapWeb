@@ -1,6 +1,6 @@
 const LocationMap = () => {
     return (
-        <div className="map-container h-100 rounded-4">
+        <div className="map-container h-100 radius-xl overflow-hidden border">
             <iframe 
                 width="100%"
                 height="100%"
