@@ -51,7 +51,7 @@ const SearchBar = ({showAdvancedSearch, setShowAdvancedSearch}) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col spacing-x-sm border-end">
+                        <div className="col spacing-x-sm border-end border-end-lg-0">
                             <button type="button"
                                     className="btn radius-lg border w-100 d-flex align-items-center justify-content-between">
                                 <span>Type of Provider</span>
@@ -62,14 +62,17 @@ const SearchBar = ({showAdvancedSearch, setShowAdvancedSearch}) => {
                     <div className="col d-flex gap-2">
                         <div className="col">
                             <button type="button"
+                                    style={{minWidth: "140px"}}
                                     className="btn radius-lg border w-100 d-flex align-items-center justify-content-between"><span>Country</span><img src={MapPin} /></button>
                         </div>
                         <div className="col">
                             <button type="button"
+                                    style={{minWidth: "140px"}}
                                     className="btn radius-lg border w-100 d-flex align-items-center justify-content-between"><span>State</span><img src={MapPin} /></button>
                         </div>
                         <div className="col">
                             <button type="button"
+                                    style={{minWidth: "140px"}}
                                     className="btn radius-lg border w-100 d-flex align-items-center justify-content-between"><span>City</span><img src={MapPin} /></button>
                         </div>
                         <div className="col-1 ">
