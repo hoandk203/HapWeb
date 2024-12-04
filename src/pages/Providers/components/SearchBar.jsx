@@ -12,7 +12,7 @@ const SearchBar = ({showAdvancedSearch, setShowAdvancedSearch}) => {
                         </button>
                         <input type="search" className="form-control search-input radius-lg" placeholder="Search"/>
                     </div>
-                    <div style={{ width: "190px" }} className="position-relative">
+                    <div style={{ width: "194px" }} className="position-relative">
                         <button type="button"
                             onClick={() => setShowAdvancedSearch(!showAdvancedSearch)}
                             className="btn radius-lg border fw-semibold d-flex align-items-center gap-2 float-end"><img
@@ -75,8 +75,8 @@ const SearchBar = ({showAdvancedSearch, setShowAdvancedSearch}) => {
                                     style={{minWidth: "140px"}}
                                     className="btn radius-lg border w-100 d-flex align-items-center justify-content-between"><span>City</span><img src={MapPin} /></button>
                         </div>
-                        <div className="col-1 ">
-                            <button className="btn bg-brand-600 d-flex align-items-center h-100 float-end radius-lg"><img
+                        <div style={{ width: "38px" }} className="">
+                            <button className="btn w-100 bg-brand-600 d-flex align-items-center justify-content-center h-100 float-end radius-lg"><img
                                     src={MagnifyingGlassWhite}/></button>
                         </div>
                     </div>
