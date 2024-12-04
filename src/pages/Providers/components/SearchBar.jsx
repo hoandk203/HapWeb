@@ -12,7 +12,7 @@ const SearchBar = ({showAdvancedSearch, setShowAdvancedSearch}) => {
                         </button>
                         <input type="search" className="form-control search-input radius-lg" placeholder="Search"/>
                     </div>
-                    <div style={{ minWidth: "190px" }} className="position-relative col-2">
+                    <div style={{ width: "190px" }} className="position-relative">
                         <button type="button"
                             onClick={() => setShowAdvancedSearch(!showAdvancedSearch)}
                             className="btn radius-lg border fw-semibold d-flex align-items-center gap-2 float-end"><img
