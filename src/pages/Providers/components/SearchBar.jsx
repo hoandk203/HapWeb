@@ -5,17 +5,17 @@ import CaretDown from "../../../assets/image/CaretDown.svg";
 const SearchBar = ({showAdvancedSearch, setShowAdvancedSearch}) => {
     return (
         <div className="search-bar d-flex flex-column gap-3 border bg-neutral-0 spacing-md radius-xl">
-                <div className="d-flex gap-1">
+                <div className="d-flex gap-2">
                     <div className="position-relative col">
                         <button className="position-absolute h-100 d-flex align-items-center bg-transparent border-0 spacing-xs">
                             <img src={MagnifyingGlass}/>
                         </button>
                         <input type="search" className="form-control search-input radius-lg" placeholder="Search"/>
                     </div>
-                    <div style={{ width: "194px" }} className="position-relative">
+                    <div className="position-relative">
                         <button type="button"
                             onClick={() => setShowAdvancedSearch(!showAdvancedSearch)}
-                            className="btn radius-lg border fw-semibold d-flex align-items-center gap-2 float-end"><img
+                            className="btn radius-lg border h-100 fs-14 fw-medium d-flex align-items-center gap-2 float-end"><img
                             src={MagnifyingGlass}/>Advanced Search</button>
                     </div>
                 </div>

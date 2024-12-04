@@ -1,6 +1,8 @@
 body {
   font-family: "Inter", sans-serif;
+  color: #0f172a;
 }
+
 
 .w-20 { width: 20% !important; }
 .w-16px { width: 16px !important; }
@@ -78,7 +80,7 @@ body {
 .pagination {
   .selected {
     background-color: #0284c7 !important;
-    color: #fff;
+    color: #fff !important;
   }
 
   .page-link {
@@ -147,6 +149,7 @@ body {
   td {
     align-content: center;
     font-size: 14px;
+    color: #0f172a;
   }
 }
 
@@ -163,4 +166,8 @@ body {
     cursor: pointer;
     opacity: 0.6;
   }
+}
+
+.form-check-input:checked{
+  background-color: #0284c7 !important;
 }

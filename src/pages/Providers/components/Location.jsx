@@ -11,7 +11,7 @@ const Location = () => {
                 <ul className="nav nav-pills bg-neutral-50 radius-md p-1" role="tablist">
                     <li className="nav-item" role="presentation">
                         <button 
-                            className="nav-link active radius-md spacing-x-md text-neutral-500" 
+                            className="nav-link active radius-md spacing-x-sm spacing-y-6 text-neutral-500" 
                             data-bs-toggle="tab" 
                             data-bs-target="#map-tab" 
                             type="button" 
@@ -22,7 +22,7 @@ const Location = () => {
                     </li>
                     <li className="nav-item" role="presentation">
                         <button 
-                            className="nav-link radius-md spacing-x-md text-neutral-500" 
+                            className="nav-link radius-md spacing-x-sm spacing-y-6 text-neutral-500" 
                             data-bs-toggle="tab" 
                             data-bs-target="#list-tab" 
                             type="button" 

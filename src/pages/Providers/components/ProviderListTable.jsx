@@ -46,7 +46,7 @@ const ProviderListTable = () => {
                                     </div>
                                 </td>
                                 <td>July 17, 2024</td>
-                                <td>
+                                <td className="text-end">
                                     <button data-bs-toggle="dropdown" className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                     <div className="three-dots-dropdown dropdown-menu" onClick={e => e.stopPropagation()}>
                                         <button type="button" className="dropdown-item text-dark" data-bs-toggle="modal" data-bs-target="#messageModal"><img src={ChatCircle} /> Message</button>
@@ -74,7 +74,7 @@ const ProviderListTable = () => {
                                     </div>
                                 </td>
                                 <td>July 17, 2024</td>
-                                <td>
+                                <td className="text-end">
                                     <button data-bs-toggle="dropdown" className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                     <div className="dropdown-menu" onClick={e => e.stopPropagation()}>
                                         <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#messageModal"><img src={ChatCircle} /> Message</button>
@@ -102,7 +102,7 @@ const ProviderListTable = () => {
                                     </div>
                                 </td>
                                 <td>July 17, 2024</td>
-                                <td>
+                                <td className="text-end">
                                     <button data-bs-toggle="dropdown" className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                     <div className="dropdown-menu" onClick={e => e.stopPropagation()}>
                                         <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#messageModal"><img src={ChatCircle} /> Message</button>
@@ -130,7 +130,7 @@ const ProviderListTable = () => {
                                     </div>
                                 </td>
                                 <td>July 17, 2024</td>
-                                <td>
+                                <td className="text-end">
                                     <button data-bs-toggle="dropdown" className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                     <div className="dropdown-menu" onClick={e => e.stopPropagation()}>
                                         <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#messageModal"><img src={ChatCircle} /> Message</button>
@@ -158,7 +158,7 @@ const ProviderListTable = () => {
                                     </div>
                                 </td>
                                 <td>July 17, 2024</td>
-                                <td>
+                                <td className="text-end">
                                     <button data-bs-toggle="dropdown" className="btn btn-sm btn-link"><img src={DotsThreeVertical} alt="Three Dots Vertical"/></button>
                                     <div className="dropdown-menu" onClick={e => e.stopPropagation()}>
                                         <button type="button" className="dropdown-item" data-bs-toggle="modal" data-bs-target="#messageModal"><img src={ChatCircle} /> Message</button>

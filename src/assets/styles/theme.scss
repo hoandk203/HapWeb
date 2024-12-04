@@ -85,6 +85,7 @@
 .spacing {
   // Extra small
   &-xss { padding: 4px !important; }
+  &-6 { padding: 6px !important; }
   &-xs { padding: 8px !important; }
   
   // Small
@@ -104,6 +105,7 @@
   &-x {
     &-0 { padding-left: 0px !important; padding-right: 0px !important; }
     &-xss { padding-left: 4px !important; padding-right: 4px !important; }
+    &-6 { padding-left: 6px !important; padding-right: 6px !important; }
     &-xs { padding-left: 8px !important; padding-right: 8px !important; }
     &-sm { padding-left: 12px !important; padding-right: 12px !important; }
     &-md { padding-left: 16px !important; padding-right: 16px !important; }
@@ -116,6 +118,7 @@
   &-y {
     &-0 { padding-top: 0px !important; padding-bottom: 0px !important; }
     &-xss { padding-top: 4px !important; padding-bottom: 4px !important; }
+    &-6 { padding-top: 6px !important; padding-bottom: 6px !important; }
     &-xs { padding-top: 8px !important; padding-bottom: 8px !important; }
     &-sm { padding-top: 12px !important; padding-bottom: 12px !important; }
     &-md { padding-top: 16px !important; padding-bottom: 16px !important; }
@@ -127,12 +130,25 @@
   &-t {
     &-0 { padding-top: 0px !important; }
     &-xss { padding-top: 4px !important; }
+    &-6 { padding-top: 6px !important; }
     &-xs { padding-top: 8px !important; }
     &-sm { padding-top: 12px !important; }
     &-md { padding-top: 16px !important; }
     &-lg { padding-top: 24px !important; }
     &-xl { padding-top: 32px !important; }
     &-xll { padding-top: 40px !important; }
+  }
+
+  &-b {
+    &-0 { padding-bottom: 0px !important; }
+    &-xss { padding-bottom: 4px !important; }
+    &-6 { padding-bottom: 6px !important; }
+    &-xs { padding-bottom: 8px !important; }
+    &-sm { padding-bottom: 12px !important; }
+    &-md { padding-bottom: 16px !important; }
+    &-lg { padding-bottom: 24px !important; }
+    &-xl { padding-bottom: 32px !important; }
+    &-xll { padding-bottom: 40px !important; }
   }
 }
 

@@ -9,13 +9,13 @@ const AnalyticsContent= ()=>{
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <div className="d-flex gap-2 flex-column bg-neutral-50 spacing-xs radius-xl">
+                        <div className="d-flex gap-2 flex-column bg-neutral-50 spacing-sm radius-xl">
                             <span className="text-neutral-500 fs-14">Auditors</span>
                             <h2 className="mb-0 me-2 fs-4 fw-semibold">660</h2>
                         </div>
                     </div>
-                    <div className="col-6">
-                        <div className="d-flex gap-2 flex-column bg-neutral-50 spacing-xs radius-xl">
+                    <div className="col-6 ps-0">
+                        <div className="d-flex gap-2 flex-column bg-neutral-50 spacing-sm radius-xl">
                             <span className="text-neutral-500 fs-14">Countries</span>
                             <h2 className="mb-0 me-2 fs-4 fw-semibold">70</h2>
                         </div>

@@ -5,7 +5,7 @@ const LocationList = () => {
         <>
             <div className="h-100 d-flex flex-column">
                 <ul className="list-group">
-                    <li className="list-group-item">
+                    <li className="list-group-item spacing-sm">
                         <div className="">
                             <div className="d-flex justify-content-between">
                                 <span className="fs-14 fw-semibold">Provider 1</span>
@@ -20,7 +20,7 @@ const LocationList = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item spacing-sm">
                         <div className="">
                             <div className="d-flex justify-content-between">
                                 <span className="fs-14 fw-semibold">Provider 1</span>
@@ -35,7 +35,7 @@ const LocationList = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item spacing-sm">
                         <div className="">
                             <div className="d-flex justify-content-between">
                                 <span className="fs-14 fw-semibold">Provider 1</span>
@@ -50,7 +50,7 @@ const LocationList = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item spacing-sm">
                         <div className="">
                             <div className="d-flex justify-content-between">
                                 <span className="fs-14 fw-semibold">Provider 1</span>
@@ -65,7 +65,7 @@ const LocationList = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item spacing-sm">
                         <div className="">
                             <div className="d-flex justify-content-between">
                                 <span className="fs-14 fw-semibold">Provider 1</span>
@@ -80,7 +80,7 @@ const LocationList = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item spacing-sm">
                         <div className="">
                             <div className="d-flex justify-content-between">
                                 <span className="fs-14 fw-semibold">Provider 1</span>
@@ -95,7 +95,7 @@ const LocationList = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item spacing-sm">
                         <div className="">
                             <div className="d-flex justify-content-between">
                                 <span className="fs-14 fw-semibold">Provider 1</span>
@@ -110,7 +110,7 @@ const LocationList = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item spacing-sm">
                         <div className="">
                             <div className="d-flex justify-content-between">
                                 <span className="fs-14 fw-semibold">Provider 1</span>
@@ -125,7 +125,7 @@ const LocationList = () => {
                             </div>
                         </div>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item spacing-sm">
                         <div className="">
                             <div className="d-flex justify-content-between">
                                 <span className="fs-14 fw-semibold">Provider 1</span>

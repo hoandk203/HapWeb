@@ -31,12 +31,12 @@ const ProviderList = () => {
                     <div>
                         <ul className="pagination mb-0 d-flex gap-2">
                             <li className="page-item"><a className="page-link" href="#"><img src={CaretLeft}/></a></li>
-                            <li className="page-item"><a className="page-link selected" href="">1</a></li>
-                            <li className="page-item"><a className="page-link" href="#">2</a></li>
-                            <li className="page-item"><a className="page-link" href="#">3</a></li>
-                            <li className="page-item"><a className="page-link" href="#">4</a></li>
-                            <li className="page-item"><a className="page-link" href="#">5</a></li>
-                            <li className="page-item"><a className="page-link" href="#"><img src={CaretRight}/></a>
+                            <li className="page-item"><a className="page-link text-neutral-900 selected" href="">1</a></li>
+                            <li className="page-item"><a className="page-link text-neutral-900" href="#">2</a></li>
+                            <li className="page-item"><a className="page-link text-neutral-900" href="#">3</a></li>
+                            <li className="page-item"><a className="page-link text-neutral-900" href="#">4</a></li>
+                            <li className="page-item"><a className="page-link text-neutral-900" href="#">5</a></li>
+                            <li className="page-item"><a className="page-link text-neutral-900" href="#"><img src={CaretRight}/></a>
                             </li>
                         </ul>
                     </div>

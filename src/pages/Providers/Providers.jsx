@@ -10,7 +10,7 @@ import MessageModal from "./components/MessageModal";
 const Providers = () => {
   const [showAdvancedSearch, setShowAdvancedSearch] = useState(false);
   return (
-    <div className="main-content position-relative d-flex flex-column gap-4 spacing-md bg-neutral-100">
+    <div className="main-content position-relative d-flex flex-column gap-3 spacing-md bg-neutral-100">
       <MessageModal/>
       <ConditionalSearch/>
       {showAdvancedSearch && <AdvancedSearch setShowAdvancedSearch={setShowAdvancedSearch}/>}
