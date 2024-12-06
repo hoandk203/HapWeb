@@ -3,25 +3,25 @@ import CaretDownPrimary from "../../../assets/image/CaretDownPrimary.svg";
 const AnalyticsContent= ()=>{
     return(
         <>
-            <div className="analytics-card max-height-520px d-flex flex-column gap-2 justify-content-between h-100 border radius-xl">
+            <div style={{height: "520px"}} className="spacing-md bg-white d-flex flex-column gap-2 justify-content-between border radius-xl">
                 <div className="spacing-y-xs">
                     <h3 className="fs-5 fw-semibold mb-0">Analytics</h3>
                 </div>
                 <div className="row">
                     <div className="col-6">
                         <div className="d-flex gap-2 flex-column bg-neutral-50 spacing-sm radius-xl">
-                            <span className="text-neutral-500 fs-14">Auditors</span>
-                            <h2 className="mb-0 me-2 fs-4 fw-semibold">660</h2>
+                            <span className="text-neutral-500 fs-subtitle-2">Auditors</span>
+                            <h2 className="mb-0 me-2 fs-3">660</h2>
                         </div>
                     </div>
                     <div className="col-6 ps-0">
                         <div className="d-flex gap-2 flex-column bg-neutral-50 spacing-sm radius-xl">
-                            <span className="text-neutral-500 fs-14">Countries</span>
-                            <h2 className="mb-0 me-2 fs-4 fw-semibold">70</h2>
+                            <span className="text-neutral-500 fs-subtitle-2">Countries</span>
+                            <h2 className="mb-0 me-2 fs-3">70</h2>
                         </div>
                     </div>
                 </div>
-                <div className="country-stats d-flex flex-column gap-3 fs-14">
+                <div className="country-stats d-flex flex-column gap-3">
                     <div className="d-flex justify-content-between">
                         <span className="col-4">India</span>
                         <div className="col d-flex gap-2">
@@ -87,7 +87,7 @@ const AnalyticsContent= ()=>{
                     </div>
                 </div>
                 <div className="d-flex justify-content-center">
-                    <button className="view-all-btn text-brand-600 btn d-flex align-items-center gap-1 fs-14">
+                    <button className="view-all-btn text-brand-600 btn d-flex align-items-center gap-1 fs-subtitle-2">
                         <span>View All</span>
                         <img src={CaretDownPrimary}/>
                     </button>

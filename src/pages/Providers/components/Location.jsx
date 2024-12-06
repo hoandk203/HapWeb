@@ -3,10 +3,10 @@ import LocationMap from "./LocationMap";
 
 const Location = () => {
     return (
-        <div className="analytics-card h-100 d-flex flex-column gap-3 border radius-xl">
+        <div style={{height: "520px"}} className="spacing-md bg-white d-flex flex-column gap-3 border radius-xl">
             <div className="d-flex justify-content-between">
                 <div className="spacing-y-xs">
-                    <h3 className="fs-5 fw-semibold mb-0">Provider Locations</h3>
+                    <h3 className="fs-4 fw-semibold mb-0">Provider Locations</h3>
                 </div>
                 <ul className="nav nav-pills bg-neutral-50 radius-md p-1" role="tablist">
                     <li className="nav-item" role="presentation">

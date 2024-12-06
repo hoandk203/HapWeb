@@ -9,23 +9,23 @@ import StarGray from "../../../assets/image/StarGray.svg";
 
 const AdvancedSearch = ({setShowAdvancedSearch}) => {
     return (
-        <div style={{width: "260px", left: "0px", height: "calc(100vh - 64px)"}} className="position-absolute z-1001 top-0 fs-14 bg-neutral-0 border d-flex flex-column">
+        <div style={{width: "260px", left: "0px", height: "calc(100vh - 64px)"}} className="position-absolute z-1001 fs-body-2 top-0 bg-neutral-0 border d-flex flex-column">
             <div className="spacing-md border">
                 <div className="d-flex justify-content-between align-items-center mb-2">
-                    <h5 className="mb-0 fs-6">Advanced Search</h5>
-                    <button onClick={() => setShowAdvancedSearch(false)} className="btn spacing-x-xs spacing-y-xss"><img src={X}/></button>
+                    <p className="mb-0 fs-subtitle-1">Advanced Search</p>
+                    <button onClick={() => setShowAdvancedSearch(false)} style={{marginRight: "-8px"}} className="btn spacing-x-xs spacing-y-xss"><img src={X}/></button>
                 </div>
 
-                <button data-bs-toggle="modal" data-bs-target="#conditionalSearch" className="btn border conditional-search d-flex align-items-center justify-content-center gap-2">
+                <button data-bs-toggle="modal" data-bs-target="#conditionalSearch" className="btn w-100 border conditional-search d-flex align-items-center justify-content-center gap-2">
                     <img src={TreeStructure} alt="Tree Structure" />
-                    <span>Conditional Search</span>
+                    <span className="fs-subtitle-2">Conditional Search</span>
                 </button>
             </div>
 
             <div className="accordion overflow-y-scroll" id="searchAccordion">
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#budgetCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#budgetCollapse">
                             Budget
                         </button>
                     </div>
@@ -45,7 +45,7 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#ratingCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#ratingCollapse">
                             Rating
                         </button>
                     </div>
@@ -64,7 +64,7 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#availabilityCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#availabilityCollapse">
                             Availability
                         </button>
                     </div>
@@ -77,7 +77,7 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#providerCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#providerCollapse">
                             Provider type
                         </button>
                     </div>
@@ -97,20 +97,20 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#serviceCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#serviceCollapse">
                             Service types
                         </button>
                     </div>
                     <div id="serviceCollapse" className="accordion-collapse collapse show border-bottom">
                         <div className="accordion-body spacing-md spacing-t-xss">
-                            <select className="form-select mb-2 fs-14">
+                            <select className="form-select mb-2 fs-body-2">
                                 <option>Select service type(s)</option>
                             </select>
                             <div className="tags d-flex flex-wrap gap-2">
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 1 <img src={X16}/></span>
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 2 <img src={X16}/></span>
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 3 <img src={X16}/></span>
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 4 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 1 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 2 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 3 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 4 <img src={X16}/></span>
                             </div>
                         </div>
                     </div>
@@ -118,18 +118,18 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#serviceCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#serviceCollapse">
                             Sub-Service types
                         </button>
                     </div>
                     <div id="serviceCollapse" className="accordion-collapse collapse show border-bottom">
                         <div className="accordion-body spacing-md spacing-t-xss">
-                            <select className="form-select mb-2 fs-14">
+                            <select className="form-select mb-2 fs-body-2">
                                 <option>Select sub-service(s)</option>
                             </select>
                             <div className="tags d-flex flex-wrap gap-2">
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 1 <img src={X16}/></span>
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 2 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 1 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 2 <img src={X16}/></span>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#genderCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#genderCollapse">
                             Gender
                         </button>
                     </div>
@@ -157,7 +157,7 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#shiftCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#shiftCollapse">
                             Work shift
                         </button>
                     </div>
@@ -177,7 +177,7 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#modeCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#modeCollapse">
                             Service Mode
                         </button>
                     </div>
@@ -197,13 +197,13 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#trainingCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#trainingCollapse">
                             Training & Certification
                         </button>
                     </div>
                     <div id="trainingCollapse" className="accordion-collapse collapse show border-bottom">
                         <div className="accordion-body spacing-md spacing-t-xss">
-                            <select className="form-select mb-2 fs-14">
+                            <select className="form-select mb-2 fs-body-2">
                                 <option>Select training(s)</option>
                             </select>
                         </div>
@@ -212,13 +212,13 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#proficiencyCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#proficiencyCollapse">
                             Language proficiency
                         </button>
                     </div>
                     <div id="proficiencyCollapse" className="accordion-collapse collapse show border-bottom">
                         <div className="accordion-body spacing-md spacing-t-xss">
-                            <select className="form-select mb-2 fs-14">
+                            <select className="form-select mb-2 fs-body-2">
                                 <option>Select proficiency</option>
                             </select>
                         </div>
@@ -227,20 +227,20 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#skillsCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#skillsCollapse">
                             Skills
                         </button>
                     </div>
                     <div id="skillsCollapse" className="accordion-collapse collapse show border-bottom">
                         <div className="accordion-body spacing-md spacing-t-xss">
-                            <select className="form-select mb-2 fs-14">
+                            <select className="form-select mb-2 fs-body-2">
                                 <option>Select skills</option>
                             </select>
                             <div className="tags d-flex flex-wrap gap-2">
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 1 <img src={X16}/></span>
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 2 <img src={X16}/></span>
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 3 <img src={X16}/></span>
-                                <span className="tag bg-blue-50 text-blue-700 spacing-x-xs py-1 radius-xs">Option 4 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 1 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 2 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 3 <img src={X16}/></span>
+                                <span className="tag bg-blue-50 text-blue-700 fs-subtitle-2 spacing-x-xs py-1 radius-sm">Option 4 <img src={X16}/></span>
                             </div>
                         </div>
                     </div>
@@ -248,7 +248,7 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#experienceCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#experienceCollapse">
                             Professional experience
                         </button>
                     </div>
@@ -272,13 +272,13 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
 
                 <div className="accordion-item border-0">
                     <div className="accordion-header">
-                        <button className="accordion-button bg-neutral-0 fs-14 fw-semibold shadow-none spacing-md" type="button" data-bs-toggle="collapse" data-bs-target="#industryCollapse">
+                        <button className="accordion-button bg-neutral-0 fs-subtitle-2 fw-semibold shadow-none spacing-md spacing-b-sm" type="button" data-bs-toggle="collapse" data-bs-target="#industryCollapse">
                             Industries served
                         </button>
                     </div>
                     <div id="industryCollapse" className="accordion-collapse collapse show border-bottom">
                         <div className="accordion-body spacing-md spacing-t-xss">
-                            <select className="form-select mb-2 fs-14">
+                            <select className="form-select mb-2 fs-body-2">
                                 <option>Select industry(s)</option>
                             </select>
                             <div className="tags d-flex flex-wrap gap-2">
@@ -292,8 +292,8 @@ const AdvancedSearch = ({setShowAdvancedSearch}) => {
             </div>
 
             <div className="form-actions spacing-md d-flex gap-2 border-top">
-                <button className="btn radius-md fs-14 btn-outline-secondary fw-semibold w-50">Reset</button>
-                <button className="btn radius-md fs-14 bg-brand-600 text-neutral-0 fw-semibold w-50">Apply</button>
+                <button className="btn radius-md fs-subtitle-2 text-primary btn-outline-secondary fw-semibold w-50">Reset</button>
+                <button className="btn radius-md fs-subtitle-2 bg-brand-600 text-neutral-0 fw-semibold w-50">Apply</button>
             </div>
         </div>
     )

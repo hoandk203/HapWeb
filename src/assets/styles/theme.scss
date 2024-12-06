@@ -1,5 +1,8 @@
 // Colors utilities
 .text {
+  &-primary { color: #0f172a !important; }
+  &-secondary { color: #64748b !important; }
+
   // Blue
   &-blue-50 { color: #eff8ff !important; }
   &-blue-500 { color: #1570ef !important; }
@@ -84,6 +87,7 @@
 // Spacing utilities
 .spacing {
   // Extra small
+  &-0 { padding: 0px !important; }
   &-xss { padding: 4px !important; }
   &-6 { padding: 6px !important; }
   &-xs { padding: 8px !important; }
@@ -150,6 +154,30 @@
     &-xl { padding-bottom: 32px !important; }
     &-xll { padding-bottom: 40px !important; }
   }
+
+  &-s {
+    &-0 { padding-left: 0px !important; }
+    &-xss { padding-left: 4px !important; }
+    &-6 { padding-left: 6px !important; }
+    &-xs { padding-left: 8px !important; }
+    &-sm { padding-left: 12px !important; }
+    &-md { padding-left: 16px !important; }
+    &-lg { padding-left: 24px !important; }
+    &-xl { padding-left: 32px !important; }
+    &-xll { padding-left: 40px !important; }
+  }
+
+  &-e {
+    &-0 { padding-right: 0px !important; }
+    &-xss { padding-right: 4px !important; }
+    &-6 { padding-right: 6px !important; }
+    &-xs { padding-right: 8px !important; }
+    &-sm { padding-right: 12px !important; }
+    &-md { padding-right: 16px !important; }
+    &-lg { padding-right: 24px !important; }
+    &-xl { padding-right: 32px !important; }
+    &-xll { padding-right: 40px !important; }
+  }
 }
 
 // Radius utilities
@@ -158,4 +186,77 @@
   &-md { border-radius: 8px !important; }
   &-lg { border-radius: 12px !important; }
   &-xl { border-radius: 16px !important; }
+}
+
+// Font utilities
+.fs {
+  // Headings
+  &-1 { 
+    font-size: 40px !important;
+    line-height: 48px !important;
+    font-weight: 600 !important;
+  }
+  &-2 { 
+    font-size: 32px !important;
+    line-height: 40px !important;
+    font-weight: 600 !important;
+  }
+  &-3 { 
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 600 !important;
+  }
+  &-4 { 
+    font-size: 20px !important;
+    line-height: 24px !important;
+    font-weight: 600 !important;
+  }
+
+  // Subtitles
+  &-subtitle-1 {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 500 !important;
+  }
+  &-subtitle-2 {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 500 !important;
+  }
+
+  // Body text
+  &-body-1 {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 400 !important;
+  }
+  &-body-2 {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 400 !important;
+  }
+
+  // Button text
+  &-button {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 500 !important;
+  }
+
+  // Caption
+  &-caption {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    font-weight: 400 !important;
+  }
+  &-caption-subtitle {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    font-weight: 500 !important;
+  }
+}
+
+// Font family
+.font-inter {
+  font-family: 'Inter', sans-serif !important;
 }

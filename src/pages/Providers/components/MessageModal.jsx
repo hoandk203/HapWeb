@@ -13,7 +13,7 @@ const MessageModal = () => {
                 <div className="modal-header d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center gap-2">
                         <img src={UserList1} className="avatar" alt="Provider"/>
-                        <span>Cameron Williamson</span>
+                        <span className="fs-subtitle-1">Cameron Williamson</span>
                     </div>
                     <div className="d-flex align-items-center">
                         <button onClick={() => modalRef.current.classList.toggle("modal-fullscreen")} type="button" className="btn"><img src={CornersOut}/></button>
@@ -25,7 +25,7 @@ const MessageModal = () => {
                 </div>
                 <div className="modal-footer d-flex justify-content-between align-items-center gap-1">
                     <input type="text" className="form-control w-auto flex-grow-1" placeholder="Enter your message" />
-                    <button className="btn bg-brand-600 text-neutral-0 d-flex align-items-center gap-2"><img src={PaperPlaneTilt} /><span>Send</span></button>
+                    <button className="btn bg-brand-600 text-neutral-0 d-flex align-items-center fs-subtitle-2 gap-2"><img src={PaperPlaneTilt} /><span>Send</span></button>
                 </div>
                 </div>
             </div>

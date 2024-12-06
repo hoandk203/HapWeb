@@ -12,7 +12,7 @@ const Header = ({ showSidebar, setShowSidebar }) => {
     pathname = pathname.join(" ");
     
     return (
-        <div className="header spacing-x-md spacing-y-sm d-flex justify-content-between align-items-center border-bottom">
+        <div className="header position-sticky top-0 z-1001 bg-white spacing-x-md spacing-y-sm d-flex justify-content-between align-items-center border-bottom">
             <div className="d-flex align-items-center gap-3">
                 <button 
                     className="d-lg-none btn border-0 p-0" 
@@ -20,7 +20,7 @@ const Header = ({ showSidebar, setShowSidebar }) => {
                 >
                     <img src={logo} alt="logo"/>
                 </button>
-                <h4 className="mb-0 fs-4 fw-semibold">{pathname || "Home"}</h4>
+                <h4 className="mb-0 fs-3 fw-semibold">{pathname || "Home"}</h4>
             </div>
             <div className="d-flex gap-2">
                 <div><img src={userAvatar} /></div>

@@ -8,7 +8,29 @@ export default function BasicDatePicker() {
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
       <DemoContainer components={['DatePicker']}>
-        <DatePicker label="Select Date" />
+        <DatePicker 
+          label="Select Date" 
+          sx={{
+            width: '100%',
+            '& .MuiOutlinedInput-root': {
+              borderRadius: '8px',
+              '& fieldset': {
+                borderColor: '#e2e8f0',
+              },
+              '&:hover fieldset': {
+                borderColor: '#cbd5e1',
+              },
+              '&.Mui-focused fieldset': {
+                borderColor: '#1570EF',
+              }
+            },
+            '& .MuiInputLabel-root': {
+              '&.Mui-focused': {
+                color: '#1570EF',
+              }
+            }
+          }}
+        />
       </DemoContainer>
     </LocalizationProvider>
   );
